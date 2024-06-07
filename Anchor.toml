@@ -2,6 +2,9 @@
 seeds = false
 skip-lint = false
 
+[programs.localnet]
+nft_lend_borrow = 'FuWX5XFcPGoJ5daJhMhxLFuKDZSXK8Tvqo4vGqhW9mGj'
+
 [programs.devnet]
 nft_lend_borrow = 'FuWX5XFcPGoJ5daJhMhxLFuKDZSXK8Tvqo4vGqhW9mGj'
 
@@ -9,7 +12,7 @@ nft_lend_borrow = 'FuWX5XFcPGoJ5daJhMhxLFuKDZSXK8Tvqo4vGqhW9mGj'
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
